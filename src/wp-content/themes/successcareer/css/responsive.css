@@ -1,0 +1,417 @@
+@media screen and (max-width: 1200px) {
+  #page-info .banner-title {
+    margin-top: 5rem;
+  }
+  .section-2 .listJobsInner {
+    top: -330px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #footer {
+    overflow: visible;
+    text-align: center;
+  }
+  .s-shape svg {
+    width: 100%;
+    margin-top: -2px;
+    margin-left: 1px;
+  }
+  #footer .s-inner + p {
+    padding-bottom: 2.625rem;
+    padding-top: 20px;
+    margin: 0;
+  }
+  #footer .f-info {
+    margin-top: 20px;
+  }
+  #page-info {
+    background-image: url('../images/home-section-1-m.png');
+  }
+  .job-list #page-info .section-1, .qc-engineer #page-info .section-1, .it-helpdesk #page-info .section-1, .blockchain-developer #page-info .section-1, .devops-engineer #page-info .section-1, .java-developer #page-info .section-1, .react-native-developer #page-info .section-1,
+  .news #page-info .section-1,
+  .life-in-success .section-1 {
+    background-image: url('../images/home-section-1-m.png');
+  }
+  .menu-toggler {
+    margin: 0 0 0 15px;
+  }
+  .menu .menu-item {
+    display: block;
+  }
+  .menu .menu-item > a {
+    display: block;
+    text-align: left;
+    padding: 10px 10px 10px;
+  }
+  .menu .menu-item.apply-now {
+    text-align: left;
+  }
+  .menu .menu-item.apply-now > a {
+    float: left;
+  }
+  #top-bar {
+    background:rgba(25, 25, 25, 0.8);
+    padding-bottom: 20px;
+    overflow: hidden;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+  }
+  .menu .menu-item.menu-page.menu-item-active::before,
+  .menu .menu-item.menu-page::before,
+  .menu .menu-item.menu-page:hover::before,
+  .menu .menu-item.menu-page:hover::after {
+    display: none;
+  }
+  .menu .menu-item.menu-page.menu-item-active::before, .menu .menu-item.menu-page.menu-item-active:hover::before, .menu .menu-item.menu-page:focus::before {
+    display: none;
+  }
+  #top-bar.show {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+  }
+  .menu-toggler.show > span {
+    display: none;
+  }
+  .menu-toggler > span {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+  }
+  .menu-toggler.show > span:first-child {
+    transform: rotate(-45deg);
+    margin-top: 4px;
+    display: block;
+  }
+  .menu-toggler.show > span:first-child + span {
+    transform: rotate(45deg);
+    margin-top: -3px;
+    display: block;
+  }
+  .searchJobs {
+    padding: 0 20px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+  }
+  #page-info .banner-title {
+    padding: 10px 30px;
+    text-align: center;
+  }
+  
+  #page-info .banner-title .heading:after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #footer .s-inner > .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .s-container {
+    max-width: 620px;
+  }
+  .listNews .s-item .img {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+    margin: 0 0 20px;
+  }
+  .listNews .s-item .content-news {
+    margin-left: 0;
+    position: inherit;
+    top: inherit;
+  }
+  .listJobsDescription {
+    position: relative;
+    top: -100px;
+    padding: 0 20px;
+    margin-top: 0;
+    float: none;
+    width: 100%;
+  }
+  .listJobsDescription > ul li a {
+    font-size: 14px;
+    border-radius: 5px 5px 0 0;
+    width: 75px;
+    height: 36px;
+    line-height: 38px;
+  }
+  .s-content-button {
+    float: none;
+    padding-top: 20px;
+    padding-left: 80px;
+    clear: both;
+  }
+  .ourMemories .g-item.box {
+    width: 360px;
+  }
+  .ourMemories .c-item .img {
+    width: 160px;
+  }
+  .grid-memories {
+    display: inline-block;
+  }
+  .ourMemories .s-inner {
+    max-width: 620px;
+  }
+
+  .ourMemories .c-item .img .s-info, .img-info .s-list li .img .s-info {
+    bottom: 0;
+    padding: 5px 10px;
+    height: 60px;
+  }
+  .wpls-logo-showcase button.slick-prev, .wpls-logo-showcase button.slick-prev:active,
+  .wpls-logo-showcase button.slick-next, .wpls-logo-showcase button.slick-next:active {
+    display: none !important;
+  }
+  .section-1 {
+    min-height: 520px;
+  }
+  .section-2 .listJobsInner,
+  .listNews {
+    top: -100px;
+    margin-top: 0;
+  }
+  .s-img-thumb {
+    float: none;
+    margin: 0 auto;
+  }
+  .news .listNews,
+  .life-in-success .listNews {
+    top: inherit;
+  }
+  .img-info {
+    flex: none;
+    width: 100%;
+    clear: both;
+  }
+  .s-section.even .img-info .s-list {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .listJobsDescription {
+    top: inherit;
+    margin-top: -100px;
+    float: left;
+}
+  .btnGo {
+    width: 38px;
+    height: 38px;
+    max-width: 38px;
+    margin: 10px auto 15px;
+  }
+  .s-box {
+    margin: 0 auto;
+    padding-bottom: calc(100% - 45px - 40px + 40px + 20px);
+    max-width: 100%;
+  }
+  #logo a {
+    width: 140px;
+    height: calc(44px * 140 / 160);
+  }
+  .social {
+    text-align: center;
+    padding-left: 0;
+  }
+  #footer h1 {
+    text-align: center;
+  }
+  .officeTitle {
+    text-align: center;
+  }
+  .ourMemories .c-item .img {
+    width: 320px;
+    max-width: 100%;
+  }
+  .ourMemories .c-item.x2 .img {
+    height: 180px;
+  }
+  .ourMemories .g-item .c-item.x2 {
+    padding: 0;
+  }
+  .ourMemories .g-item {
+    margin: 0;
+    width: 100%;
+  }
+  .box-item-row {
+    margin: 0;
+  }
+  
+  #footer .s-inner + p {
+    padding: 10px 20px;
+  }
+  .ourMemories .g-item .c-item {
+    padding: 0;
+    width: 100%;
+  }
+  .ourMemories .g-item.box {
+    max-width: 100%;
+  }
+  .ourMemories .c-item .img {
+    float: none;
+    margin: 0 auto;
+  }
+  
+  .banner-title .heading + p span {
+    font-size: 24px;
+  }
+  .ourCores {
+    background-image: url('../images/bg-score-m.png');
+  }
+  .ourMemories .s-list{
+    padding: 0 20px;
+  }
+  .ourMemories .s-inner {
+    border-radius: 5px;
+    padding: 30px 20px;
+    top: inherit;
+    position: relative;
+    margin-top: -140px;
+  }
+  .ourMemories {
+    background: #edf3f1;
+  }
+  .s-col {
+    float: none;
+    max-width: 300px;
+    margin: 0 auto 20px;
+  }
+  
+  .listJobs .title {
+    max-width: 300px;
+    margin: 30px auto 0;
+  } 
+  .section-2 .listJobsInner {
+    position: inherit;
+    top: inherit;
+    padding-bottom: 70px;
+  }
+  .listJobs {
+    margin-top: -110px;
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  .contentNews {
+    padding: 0 20px;
+  }
+  
+  .s-thumbnail img {
+    min-height: 100%;
+    max-width: 120%;
+  }
+  
+  .listNews .s-item {
+    padding: 20px 30px 10px;
+  }
+  .life-in-success .listNews {
+    margin-top: 20px;
+  }
+  .life-in-success .listNews .s-p-section,
+  .img-info {
+    padding: 0 20px;
+  }
+  .img-info .s-list li {
+    float: none;
+    margin-left: 0;
+  }
+  .img-info .s-list li .img {
+    width: 100%;
+  }
+  .text-info {
+    flex: none;
+    padding-bottom: 40px;
+  }
+  .img-info .s-list li .img .s-info {
+    bottom: 0;
+  }
+  .img-info .s-list li .img .s-info p {
+    margin-bottom: 0;
+  }
+  .s-section.even .img-info .s-list {
+    max-width: 100%;
+  }
+  .img-info .s-list.s-list-type-3 .img,
+  .img-info .s-list.s-list-type-3 .img.x3 {
+    width: 100%;
+  }
+  .img-info .s-list.s-list-type-2 li:nth-child(2n + 1) {
+    margin-left: 0;
+  }
+  .s-content-box li {
+    padding: 0 20px;
+  }
+  .s-content-info {
+    margin-left: 0;
+    padding-top: 20px;
+    clear: both;
+  }
+  .btnJoinUsNow {
+    max-width: 280px;
+  }
+  .s-content {
+    padding-top: 30px;
+    float: none;
+    margin-left: 0;
+    clear: both;
+  }
+  .s-content-button {
+    float: none;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .s-main-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  
+  .qc-engineer .section-2, .it-helpdesk .section-2, .blockchain-developer .section-2, .devops-engineer .section-2, .java-developer .section-2, .react-native-developer .section-2, .news .section-2 {
+    padding-bottom: 40px;
+  }
+  
+  
+  
+  .s-section.s-p-section.even {
+    padding-top: 40px;
+  }
+  #fancybox-wrap #fancybox-close {
+    top: 10px;
+    right: 0;
+    width: 32px;
+    height: 32px;
+  }
+  #fancybox-wrap #fancybox-close:after {
+    margin: 0 auto;
+  }
+  .s-content {
+    text-align: center;
+  }
+  .s-content h3 {
+    margin: 0 auto;
+  }
+  .s-content h3:after {
+    margin: 20px auto;
+  }
+  .btnApplyNow {
+    margin: 0 auto;
+  }
+  .s-content-info h3 {
+    text-align: center;
+  }
+  .s-content-icon {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .news .listNews {
+    margin-top: -40px;
+  }
+  
+  
+}
